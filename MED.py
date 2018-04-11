@@ -33,8 +33,8 @@ def iterative_levenshtein(s, t, costs=(1, 1, 1)):
 list1=[]
 list2=[]
 pairs=[]
-########################complete
-outfile = r"/Users/lscpuser/Desktop/trytest.txt"
+
+outfile = r"/Users/lscpuser/Desktop/trytest.txt" # to adapt
 text = open(outfile,"r")
 for line in text:
  line1=line.strip('\n')
